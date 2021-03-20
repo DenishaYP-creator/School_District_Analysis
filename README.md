@@ -24,9 +24,9 @@ After replacing Thomas high Schools' reading and math scores, a new analysis wil
 ## LOGICAL WORKFLOW
 
 #### DELIVERABLES 
-Deliverable 1: Replace ninth-grade reading and math scores
-Deliverable 2: Repeat the school district analysis
-Deliverable 3: School district analysis report
+1. Replace ninth-grade reading and math scores
+2. Repeat the school district analysis
+3. School district analysis report
 
 
 ## RESOURCES
