@@ -29,68 +29,52 @@ After replacing Thomas high Schools' reading and math scores, a new analysis wil
 ## RESOURCES
 
 ## LOGICAL WORKFLOW
+### Deliverable 1: Replace ninth-grade reading and math scores
 
-**Step 1. Get the number of students that are in ninth grade at Thomas High School. These students have no grades. 
+[![Deliverable-1.png](https://i.postimg.cc/DfrZGwfF/Deliverable-1.png)](https://postimg.cc/235rRmBX)
+[![Deliverable-1-Summary.png](https://i.postimg.cc/J0sLKmyB/Deliverable-1-Summary.png)](https://postimg.cc/Pvn9rgQt)
 
- **Get the total student count** 
-student_count = school_data_complete_df["Student ID"].count()
+### Deliverable 2: Repeat the school district analysis
+Steps 1-4 
+- Total Schools Count: 15
+- Total Students : 39,170
+- Total Budget: $24,649,428 
+- Average Math: 78.9 
+- Average Reading:81.9
+- Percentage passing Math 74.8%
+- Percentage Passing Reading: 85.7%
+- -Overage Passing Percentage: 64.9
 
-**Step 2. Subtract the number of students that are in ninth grade at Thomas High School from the total student count to get the new total student count.**
+[![District-Summary.png](https://i.postimg.cc/dQjHNgRh/District-Summary.png)](https://postimg.cc/6TTfyjmK)
+[![All-School-Dictrict-Summary.png](https://i.postimg.cc/mk1YQXsy/All-School-Dictrict-Summary.png)](https://postimg.cc/D4F4hcmS)
 
-**Step 3. Calculate the passing percentages with the new total student count.
+## Steps 5-14 
+**THOMAS HIGH SCHOOL 10th -12th**
 
-**Calculate the students who passed both reading and math.**
-passing_math_reading = school_data_complete_df[(school_data_complete_df["math_score"] >= 70)
-                                               & (school_data_complete_df["reading_score"] >= 70)]
-**Calculate the number of students that passed both reading and math.**
-overall_passing_math_reading_count = passing_math_reading["student_name"].count()
+[![Thomas-High-School-Summary.png](https://i.postimg.cc/fRLHQx0h/Thomas-High-School-Summary.png)](https://postimg.cc/SJBLWYrZ)
 
-**Step 4.Calculate the overall passing percentage with new total student count.**
+### High and Low Performing Schools 
+**Top 5 Performing School**
 
-**Step 5.  Get the number of 10th-12th graders from Thomas High School (THS).**
-**Step 6. Get all the students passing math from THS**
-**Step 7. Get all the students passing reading from THS**
-**Step 8. Get all the students passing math and reading from THS**
-**Step 9. Calculate the # Step 10. Calculate the percentage of 10th-12th grade students passing reading from Thomas High School. of 10th-12th grade students passing math from Thomas High School.** 
-**Step 11. Calculate the overall passing percentage of 10th-12th grade from Thomas High School.**
-**Step 12. Replace the passing math percent for Thomas High School in the per_school_summary_df.**
-**Step 13. Replace the passing reading percentage for Thomas High School in the per_school_summary_df.**
-**Step 14. Replace the overall passing percentage for Thomas High School in the per_school_summary_df.**
+[![Top-5-performing-schools.png](https://i.postimg.cc/gJky3pqb/Top-5-performing-schools.png)](https://postimg.cc/TyFWXZ4t)
 
-##### High and Low Performing Schools ** # per_school_summary_df
-**Sort and show top five schools.**
-**Sort and show top five schools.**
+**Bottom 5 Performing School**
 
-#### Math and Reading Scores by Grad
-**Create a Series of scores by grade levels using conditionals.
-**Group each school Series by the school name for the average math score.
-**Group each school Series by the school name for the average reading score.
+[![Bottom-5-performing-schools.png](https://i.postimg.cc/pdd4Xwhy/Bottom-5-performing-schools.png)](https://postimg.cc/cvVXF5cN)
 
+**Average math score per school & grade**  
 
-#### Math and Reading Scores by Grade
-**Combine each Series for average math scores by school into single data frame.**
-**Combine each Series for average reading scores by school into single data frame.**
-**Format each grade column.**
-**Remove the index.**
-**Display the data frame**
-**Remove the index.**
+[![average-math-score-by-School-Grade.png](https://i.postimg.cc/WzQTM2Z9/average-math-score-by-School-Grade.png)](https://postimg.cc/H84qm1B5)
 
+**Average math score per school & grade**  
+[![average-reading-score-by-school-grade.png](https://i.postimg.cc/XXS6rsMm/average-reading-score-by-school-grade.png)](https://postimg.cc/JHq2gcz5)
 
-#### Scores by School Spending
-**Establish the spending bins and group names.**
-**Categorize spending based on the bins.**
-**Calculate averages for the desired columns.** 
-**Create the DataFrame**
+### Scores by School Spending
 
-#### Scores by School Size
-**Establish the bins.**
-**Categorize spending based on the bins.**
-**Calculate averages for the desired columns.** 
-**Assemble into DataFrame.** 
+**Scores by school size** 
+[Score-Scool-size.png](https://postimg.cc/4H7rKhf6)
 
-#### Scores by School Type
-**Calculate averages for the desired columns.** 
-**Assemble into DataFrame.**
-**Format the DataFrame # Format the DataFrame**  
-**Format the DataFrame** 
-**Display the data frame**
+**Scores by school school type**
+[Score-School-Type.png](https://postimg.cc/94c5xMb2)
+
+**Scores by school spending Summary** [![per-school-SPENDING-summary.png](https://i.postimg.cc/HW7xkKXS/per-school-SPENDING-summary.png)](https://postimg.cc/8sNDyZyW)
