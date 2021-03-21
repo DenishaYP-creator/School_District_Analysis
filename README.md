@@ -72,9 +72,9 @@ Steps 1-4
 ### Scores by School Spending
 
 **Scores by school size** 
-[Score-Scool-size.png](https://postimg.cc/4H7rKhf6)
+[![Score-Scool-size.png](https://i.postimg.cc/SRDqvWHv/Score-Scool-size.png)](https://postimg.cc/4H7rKhf6)
 
 **Scores by school school type**
-[Score-School-Type.png](https://postimg.cc/94c5xMb2)
+[![Score-School-Type.png](https://i.postimg.cc/rprVwRtD/Score-School-Type.png)](https://postimg.cc/94c5xMb2)
 
 **Scores by school spending Summary** [![per-school-SPENDING-summary.png](https://i.postimg.cc/HW7xkKXS/per-school-SPENDING-summary.png)](https://postimg.cc/8sNDyZyW)
