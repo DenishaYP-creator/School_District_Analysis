@@ -1,4 +1,4 @@
-# School_District_Analysis (File Name: PyCitySchools_Challenge_.ipynb)
+# School_District_Analysis (File Name: Please open the following file for grading PyCITYSchools_Challenge_.ipynb)
 
 ## PROJECT BACKGROUND
 The Chief Data Scientist for the PyCity School District has requested assistance with analyzing student standardized test scores and student funding for the PyCity High school District. Due to a recent discovery of potential alteration to the reading and math score for Thomas High School, the district has requested change to the "PyCitySchool" project we've previously created for the district. 
